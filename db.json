@@ -1,31 +1,54 @@
 {
-  "posts": [
+  "pets": [
     {
       "id": 1,
-      "title": "Post 1"
+      "title": "Dogs"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "title": "Cats"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "title": "Birds"
+    },
+    {
+      "id": 4,
+      "title": "Other"
     }
   ],
-  "comments": [
+  "Featured": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "body": "Pluto",
+      "pettype": "Male, 6 months",
+      "location": "Los Angeles, CA"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "body": "Misa",
+      "pettype": "Female, 2 years",
+      "location": "West LA, CA"
+    },
+    {
+      "id": 3,
+      "body": "Long",
+      "pettype": "Female, 2 years",
+      "location": "Los Angeles, CA"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "Urgent": [
+    {
+      "id": 1,
+      "body": "Dylan",
+      "pettype": "Male, kitten",
+      "location": "Newyouk, NY"
+    },
+    {
+      "id": 2,
+      "body": "Misa",
+      "pettype": "Male, Young",
+      "location": "Los Angeles, CA"
+    }
+  ]
 }
